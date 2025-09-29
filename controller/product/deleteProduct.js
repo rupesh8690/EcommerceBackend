@@ -6,7 +6,8 @@ async function deleteProductController(req,res){
             throw new Error("Permission denied")
         }
 
-        const deleteProduct = await productModel.findByIdAndDelete(req.params.id)
+      const deleteProduct = await productModel.findByIdAndDelete(req.body.productId);
+
         
         res.json({
             message : "Product delete successfully",
