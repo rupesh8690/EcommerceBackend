@@ -1,26 +1,22 @@
 const nodemailer = require("nodemailer");
 
-// sendEmail function accepts an object with email, subject, and message
 async function sendEmail({ email, subject, message }) {
     try {
-        // Create transporter
         const transporter = nodemailer.createTransport({
-            service: "gmail", // you can change to any email service
+            service: "gmail",
             auth: {
-                user: process.env.EMAIL_USER,  // your email
-                pass: process.env.EMAIL_PASS   // your app password
+                user: process.env.EMAIL_USER,
+                pass: process.env.EMAIL_PASS
             }
         });
 
-        // Email options
         const mailOptions = {
             from: process.env.EMAIL_USER,
             to: email,
-            subject: subject,
+            subject,
             text: message
         };
 
-        // Send the email
         const info = await transporter.sendMail(mailOptions);
         console.log("Email sent: " + info.response);
         return info;
@@ -32,4 +28,3 @@ async function sendEmail({ email, subject, message }) {
 }
 
 module.exports = sendEmail;
-
