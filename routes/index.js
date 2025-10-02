@@ -4,6 +4,7 @@ const router = express.Router()
 
 const userSignUpController = require("../controller/user/userSignUp")
 const userSignInController = require('../controller/user/userSignIn')
+const userForgotPasswordController = require('../controller/user/userForgotPassword')
 const userDetailsController = require('../controller/user/userDetails')
 const authToken = require('../middleware/authToken')
 const userLogout = require('../controller/user/userLogout')
@@ -31,6 +32,7 @@ router.post("/signup",userSignUpController)
 router.post("/signin",userSignInController)
 router.get("/user-details",authToken,userDetailsController)
 router.get("/userLogout",userLogout)
+router.post("/forgot-password",userForgotPasswordController)
 
 //admin panel 
 router.get("/all-user",authToken,allUsers)
