@@ -10,6 +10,7 @@ async function userForgotPasswordController(req, res) {
         const user = await userModel.findOne({ email });
         if (!user) throw new Error("User not found");
 
+        // Generate reset token
         const token = crypto.randomBytes(32).toString("hex");
         user.forgotPasswordToken = token;
         user.forgotPasswordExpiry = Date.now() + 3600000; // 1 hour
@@ -17,6 +18,7 @@ async function userForgotPasswordController(req, res) {
 
         const resetLink = `http://localhost:5000/api/user/reset-password/${token}`;
 
+        // Send password reset email
         await sendEmail({
             email: user.email,
             subject: "Password Reset",
@@ -31,7 +33,7 @@ async function userForgotPasswordController(req, res) {
 
     } catch (error) {
         res.json({
-            message: error.message || error,
+            message: error.message || "Something went wrong",
             error: true,
             success: false
         });
