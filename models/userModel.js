@@ -10,7 +10,11 @@ const userSchema = new mongoose.Schema({
     password: String,
     profilePic: String,
     role: String,
-    // Add these two fields for password reset functionality
+    state: String,
+    phone: String,
+    address: String,
+
+    //  fields for password reset functionality
     forgotPasswordToken: { type: String },
     forgotPasswordExpiry: { type: Date },
 }, {

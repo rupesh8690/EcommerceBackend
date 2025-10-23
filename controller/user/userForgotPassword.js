@@ -16,7 +16,7 @@ async function userForgotPasswordController(req, res) {
         user.forgotPasswordExpiry = Date.now() + 3600000; // 1 hour
         await user.save();
 
-        const resetLink = `http://localhost:5000/api/user/reset-password/${token}`;
+        const resetLink = `http://localhost:3000/reset-password/${token}`;
 
         // Send password reset email
         await sendEmail({

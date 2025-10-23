@@ -1,0 +1,142 @@
+[
+    {
+        "base": "68da1decbcd7428649218f61",
+        "recommended": "68d7d4c3e8b9524baa5d7dfb",
+        "base_name": "Boat Earbuds101",
+        "recommended_name": "Boat earpodes",
+        "recommended_image": "http://res.cloudinary.com/del8vbhaj/image/upload/v1758975124/t3mb2dqe2ith4shhqlao.webp",
+        "support": 0.2,
+        "confidence": 1.0,
+        "lift": 1.25
+    },
+    {
+        "base": "68d7d4c3e8b9524baa5d7dfb",
+        "recommended": "68da1decbcd7428649218f61",
+        "base_name": "Boat earpodes",
+        "recommended_name": "Boat Earbuds101",
+        "recommended_image": "http://res.cloudinary.com/del8vbhaj/image/upload/v1759124924/vpjansx5dgzlmsegpmlr.webp",
+        "support": 0.2,
+        "confidence": 0.25,
+        "lift": 1.25
+    },
+    {
+        "base": "68d7d4c3e8b9524baa5d7dfb",
+        "recommended": "68df685981938cc02090db03",
+        "base_name": "Boat earpodes",
+        "recommended_name": "Boat Earbuds381",
+        "recommended_image": "http://res.cloudinary.com/del8vbhaj/image/upload/v1759471576/enudahyfgbqmgxdcsw4v.webp",
+        "support": 0.2,
+        "confidence": 0.25,
+        "lift": 1.25
+    },
+    {
+        "base": "68df685981938cc02090db03",
+        "recommended": "68d7d4c3e8b9524baa5d7dfb",
+        "base_name": "Boat Earbuds381",
+        "recommended_name": "Boat earpodes",
+        "recommended_image": "http://res.cloudinary.com/del8vbhaj/image/upload/v1758975124/t3mb2dqe2ith4shhqlao.webp",
+        "support": 0.2,
+        "confidence": 1.0,
+        "lift": 1.25
+    },
+    {
+        "base": "68d7d4c3e8b9524baa5d7dfb",
+        "recommended": "68f0b88ae2787b7b05114036",
+        "base_name": "Boat earpodes",
+        "recommended_name": "realme 9i 5G (Soulful Blue, 64 GB) (4 GB RAM) 4",
+        "recommended_image": "http://res.cloudinary.com/del8vbhaj/image/upload/v1760606285/phwoxmreprtpdecqpbfr.webp",
+        "support": 0.6,
+        "confidence": 0.75,
+        "lift": 1.25
+    },
+    {
+        "base": "68f0b88ae2787b7b05114036",
+        "recommended": "68d7d4c3e8b9524baa5d7dfb",
+        "base_name": "realme 9i 5G (Soulful Blue, 64 GB) (4 GB RAM) 4",
+        "recommended_name": "Boat earpodes",
+        "recommended_image": "http://res.cloudinary.com/del8vbhaj/image/upload/v1758975124/t3mb2dqe2ith4shhqlao.webp",
+        "support": 0.6,
+        "confidence": 1.0,
+        "lift": 1.25
+    },
+    {
+        "base": "68da1decbcd7428649218f61",
+        "recommended": "68d99bf2b426fda0293ae87f",
+        "base_name": "Boat Earbuds101",
+        "recommended_name": "demo",
+        "recommended_image": "http://res.cloudinary.com/del8vbhaj/image/upload/v1759091633/bsra7qrzbadpk1kuoeug.webp",
+        "support": 0.2,
+        "confidence": 1.0,
+        "lift": 2.5
+    },
+    {
+        "base": "68d99bf2b426fda0293ae87f",
+        "recommended": "68da1decbcd7428649218f61",
+        "base_name": "demo",
+        "recommended_name": "Boat Earbuds101",
+        "recommended_image": "http://res.cloudinary.com/del8vbhaj/image/upload/v1759124924/vpjansx5dgzlmsegpmlr.webp",
+        "support": 0.2,
+        "confidence": 0.5,
+        "lift": 2.5
+    },
+    {
+        "base": "68df685981938cc02090db03",
+        "recommended": "68d99bf2b426fda0293ae87f",
+        "base_name": "Boat Earbuds381",
+        "recommended_name": "demo",
+        "recommended_image": "http://res.cloudinary.com/del8vbhaj/image/upload/v1759091633/bsra7qrzbadpk1kuoeug.webp",
+        "support": 0.2,
+        "confidence": 1.0,
+        "lift": 2.5
+    },
+    {
+        "base": "68d99bf2b426fda0293ae87f",
+        "recommended": "68df685981938cc02090db03",
+        "base_name": "demo",
+        "recommended_name": "Boat Earbuds381",
+        "recommended_image": "http://res.cloudinary.com/del8vbhaj/image/upload/v1759471576/enudahyfgbqmgxdcsw4v.webp",
+        "support": 0.2,
+        "confidence": 0.5,
+        "lift": 2.5
+    },
+    {
+        "base": "68f0b76ae2787b7b0511402e",
+        "recommended": "68d99bf2b426fda0293ae87f",
+        "base_name": "realme 7 Pro (Mirror Silver, 128 GB) (6 GB RAM) 1",
+        "recommended_name": "demo",
+        "recommended_image": "http://res.cloudinary.com/del8vbhaj/image/upload/v1759091633/bsra7qrzbadpk1kuoeug.webp",
+        "support": 0.2,
+        "confidence": 1.0,
+        "lift": 2.5
+    },
+    {
+        "base": "68d99bf2b426fda0293ae87f",
+        "recommended": "68f0b76ae2787b7b0511402e",
+        "base_name": "demo",
+        "recommended_name": "realme 7 Pro (Mirror Silver, 128 GB) (6 GB RAM) 1",
+        "recommended_image": "http://res.cloudinary.com/del8vbhaj/image/upload/v1760605915/gkzmmhlputuo17uiunpe.webp",
+        "support": 0.2,
+        "confidence": 0.5,
+        "lift": 2.5
+    },
+    {
+        "base": "68da1decbcd7428649218f61",
+        "recommended": "68df685981938cc02090db03",
+        "base_name": "Boat Earbuds101",
+        "recommended_name": "Boat Earbuds381",
+        "recommended_image": "http://res.cloudinary.com/del8vbhaj/image/upload/v1759471576/enudahyfgbqmgxdcsw4v.webp",
+        "support": 0.2,
+        "confidence": 1.0,
+        "lift": 5.0
+    },
+    {
+        "base": "68df685981938cc02090db03",
+        "recommended": "68da1decbcd7428649218f61",
+        "base_name": "Boat Earbuds381",
+        "recommended_name": "Boat Earbuds101",
+        "recommended_image": "http://res.cloudinary.com/del8vbhaj/image/upload/v1759124924/vpjansx5dgzlmsegpmlr.webp",
+        "support": 0.2,
+        "confidence": 1.0,
+        "lift": 5.0
+    }
+]
