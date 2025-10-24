@@ -3,17 +3,19 @@ const bcrypt = require("bcryptjs");
 
 async function updateUserProfile(req, res) {
   try {
-    const { name, password } = req.body;
+    const { name, address, phone, state } = req.body;
 
     if (!name) throw new Error("Please provide name");
-    if (!password) throw new Error("Please provide password");
+    if (!address) throw new Error("Please provide address");
+    if (!phone) throw new Error("Please provide phone");
+    if (!state) throw new Error("Please provide state");
 
-    const salt = await bcrypt.genSalt(10);
-    const hashPassword = await bcrypt.hash(password, salt);
+
+
 
     const payload = {
       ...req.body,
-      password: hashPassword
+      role: "GENERAL"
     };
 
     const updateUser = await userModel.findByIdAndUpdate(req.userId, payload, { new: true });
